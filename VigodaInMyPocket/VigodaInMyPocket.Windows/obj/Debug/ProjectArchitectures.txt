@@ -1,0 +1,1 @@
+c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\VigodaInMyPocket.Windows.csproj;neutral

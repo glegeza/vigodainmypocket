@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MBP-BOOTCAMP</Machine>
+    <WindowsUser>George</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>23213948-fdc1-4fdc-a998-d77390b3de22</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.WindowsPhone\bin\Debug\vigodapocket.exe">
+      <PackagePath>vigodapocket.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Shared\loadgoda.png">
+      <PackagePath>loadgoda.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Shared\vigoda.jpg">
+      <PackagePath>vigoda.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.WindowsPhone\bin\Debug\vigodapocket.xr.xml">
+      <PackagePath>vigodapocket.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.WindowsPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
