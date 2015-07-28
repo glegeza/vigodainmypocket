@@ -9,8 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Image x:Name="vigodaImage" HorizontalAlignment="Center" Margin="4,62,6,51" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Source="vigoda.jpg" Opacity="0.5"/>
-        <TextBlock x:Name="vigodaStatus" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="ALIVE" VerticalAlignment="Center" FontSize="96" Foreground="#FF0DF722"/>
+        <Image x:Name="vigodaImage" HorizontalAlignment="Center" Margin="4,62,6,51" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Source="loadgoda.png" Opacity="0.5"/>
+        <TextBlock x:Name="vigodaStatus" HorizontalAlignment="Center" Margin="0,0,0,-350" TextWrapping="Wrap" Text="???" VerticalAlignment="Center" FontSize="96" Foreground="#FF0DF722"/>
         <TextBlock x:Name="title_text" Margin="0" TextWrapping="Wrap" Text="AbeVigoda" VerticalAlignment="Top" FontSize="48"/>
     </Grid>
 </Page>

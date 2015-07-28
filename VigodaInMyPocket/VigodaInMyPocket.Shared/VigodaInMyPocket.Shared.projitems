@@ -20,4 +20,7 @@
     <Content Include="$(MSBuildThisFileDirectory)loadgoda.png" />
     <Content Include="$(MSBuildThisFileDirectory)vigoda.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Assets\" />
+  </ItemGroup>
 </Project>

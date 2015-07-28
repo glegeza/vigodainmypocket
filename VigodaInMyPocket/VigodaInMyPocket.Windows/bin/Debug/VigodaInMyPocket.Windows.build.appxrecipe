@@ -9,47 +9,50 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>660290fe-6d50-4256-8c50-d473b48a3b5b</PackageIdentityName>
-    <IntermediateOutputPath>c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\George\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\George\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\bin\Debug\VigodaInMyPocket.Windows.exe">
+    <AppxPackagedFile Include="C:\Users\George\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\bin\Debug\VigodaInMyPocket.Windows.exe">
       <PackagePath>VigodaInMyPocket.Windows.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\George\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\George\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\George\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\George\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Shared\vigoda.jpg">
+    <AppxPackagedFile Include="C:\Users\George\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Shared\loadgoda.png">
+      <PackagePath>loadgoda.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\George\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Shared\vigoda.jpg">
       <PackagePath>vigoda.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\bin\Debug\VigodaInMyPocket.Windows.xr.xml">
+    <AppxPackagedFile Include="C:\Users\George\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\bin\Debug\VigodaInMyPocket.Windows.xr.xml">
       <PackagePath>VigodaInMyPocket.Windows.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\George\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\George\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\george\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\George\documents\visual studio 2015\Projects\VigodaInMyPocket\VigodaInMyPocket\VigodaInMyPocket.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

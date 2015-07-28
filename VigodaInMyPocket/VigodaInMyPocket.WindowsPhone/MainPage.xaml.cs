@@ -24,11 +24,19 @@ namespace VigodaInMyPocket
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private BitmapImage confusedImage;
+        private BitmapImage aliveImage;
+        private BitmapImage deadImage;
+
         public MainPage()
         {
             this.InitializeComponent();
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
+
+            confusedImage = new BitmapImage(new Uri(@"ms-appx:///loadgoda.png", UriKind.RelativeOrAbsolute));
+            aliveImage = new BitmapImage(new Uri(@"ms-appx:///vigoda.jpg", UriKind.RelativeOrAbsolute));
+            deadImage = new BitmapImage(new Uri(@"ms-appx:///vigoda.jpg", UriKind.RelativeOrAbsolute));
         }
 
         /// <summary>
@@ -45,30 +53,46 @@ namespace VigodaInMyPocket
             // Windows.Phone.UI.Input.HardwareButtons.BackPressed event.
             // If you are using the NavigationHelper provided by some templates,
             // this event is handled for you.
-
-            vigodaImage.Source = new BitmapImage(new Uri(@"ms-appx:///loadgoda.png", UriKind.RelativeOrAbsolute));
-            vigodaStatus.Text = " ???";
+            
             UpdateContent();
         }
 
         async private void UpdateContent()
         {
+            SetChecking();
+
             var http = new HttpClient();
             HttpResponseMessage response = await http.GetAsync("http://www.abevigoda.com");
             var webresponse = await response.Content.ReadAsStringAsync();
             if (webresponse.IndexOf("alive") != -1)
             {
-                BitmapImage bm = new BitmapImage(new Uri(@"ms-appx:///vigoda.jpg", UriKind.RelativeOrAbsolute));
-                vigodaImage.Source = bm;
-                vigodaStatus.Text = "Alive";
+                SetAlive();
             }
             else
             {
-                BitmapImage bm = new BitmapImage(new Uri(@"ms-appx:///vigoda.jpg", UriKind.RelativeOrAbsolute));
-                vigodaImage.Source = bm;
-                vigodaStatus.Text = "Dead";
-                vigodaStatus.Foreground = new SolidColorBrush(Windows.UI.Colors.Red);
+                SetDead();
             }
+        }
+
+        private void SetChecking()
+        {
+            vigodaImage.Source = confusedImage;
+            vigodaStatus.Text = " ???";
+        }
+
+        private void SetAlive()
+        {
+            BitmapImage bm = aliveImage;
+            vigodaImage.Source = bm;
+            vigodaStatus.Text = "Alive";
+        }
+
+        private void SetDead()
+        {
+            BitmapImage bm = deadImage;
+            vigodaImage.Source = bm;
+            vigodaStatus.Text = "Dead";
+            vigodaStatus.Foreground = new SolidColorBrush(Windows.UI.Colors.Red);
         }
     }
 }
